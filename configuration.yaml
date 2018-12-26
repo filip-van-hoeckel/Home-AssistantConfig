@@ -26,7 +26,7 @@ config:
 http:
   ssl_certificate: /ssl/fullchain.pem
   ssl_key: /ssl/privkey.pem
-  base_url: https://w51.duckdns.org:8123
+  base_url: !secret base_url 
 
 # UPnP
 upnp:
@@ -110,7 +110,7 @@ ios:
 notify:
   - name: Pushbullet
     platform: pushbullet
-    api_key: o.zwiWUALPNKARZeP93EAxx2oDrGgOMr7N
+    api_key: !secret pb_apikey 
 # Tuya sockets
 tuya:
   username: !secret tuya_user
