@@ -1,0 +1,24 @@
+# PostNL
+- platform: postnl
+  username: !secret post_username
+  password: !secret post_password
+# Slimme meter 
+- platform: dsmr
+# Plex activity
+- platform: plex
+  host: 192.168.178.130
+  username: !secret plex_user
+  password: !secret plex_pass
+# Harmony state
+- platform: template
+  sensors: 
+    harmony_hub:
+      value_template: '{{ states.remote.harmony_hub.attributes.current_activity }}'
+# Synology
+- platform: synologydsm
+  host: 192.168.178.130
+  username: !secret syn_user
+  password: !secret syn_pass
+  monitored_conditions:
+    - cpu_total_load
+    - memory_real_usage

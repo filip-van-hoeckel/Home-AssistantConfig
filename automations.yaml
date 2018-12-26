@@ -1,0 +1,9 @@
+- id: '1544363108897'
+  alias: Licht aan 's avonds
+  trigger:
+  - event: sunset
+    offset: '15'
+    platform: sun
+  condition: []
+  action:
+  - service: light.turn_on

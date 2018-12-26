@@ -1,0 +1,70 @@
+sensor.samsung_clp320_series_192168178102:
+  hidden: true
+sensor.samsung_clp320_series_192168178102_tray_1:
+  hidden: true
+sensor.samsung_clp320_series_192168178102_tray_2:
+  hidden: true
+sensor.samsung_clp320_series_192168178102_tray_3:
+  hidden: true
+sensor.samsung_clp320_series_192168178102_tray_4:
+  hidden: true
+weather.br_unknown_station:
+  friendly_name: BuienRadar Rotterdam
+sensor.hourly_gas_consumption:
+  hidden: true
+sensor.power_production:
+  hidden: true
+sensor.power_production_low:
+  hidden: true
+sensor.power_production_normal:
+  hidden: true
+sensor.power_production_phase_l1:
+  hidden: true
+sensor.power_production_phase_l2:
+  hidden: true
+sensor.power_production_phase_l3:
+  hidden: true
+sensor.voltage_sags_phase_l1:
+  hidden: true
+sensor.voltage_sags_phase_l2:
+  hidden: true
+sensor.voltage_sags_phase_l3:
+  hidden: true
+sensor.voltage_swells_phase_l1:
+  hidden: true
+sensor.voltage_swells_phase_l2:
+  hidden: true
+sensor.voltage_swells_phase_l3:
+  hidden: true
+sensor.gas_consumption:
+  hidden: true
+light.yeelight_ct2_7c49ebb882bd:
+  friendly_name: Eettafelverlichting
+light.yeelight_rgb_7c49eb186284:
+  friendly_name: Woonkamerverlichting
+sensor.compal_broadband_networks_inc_ch7465lg_bytes_received:
+  hidden: true
+sensor.compal_broadband_networks_inc_ch7465lg_bytes_sent:
+  hidden: true
+sensor.compal_broadband_networks_inc_ch7465lg_packets_received:
+  hidden: true
+sensor.compal_broadband_networks_inc_ch7465lg_packets_sent:
+  hidden: true
+sensor.compal_broadband_networks_inc_ch7465lg_packetssec_received:
+  hidden: true
+sensor.compal_broadband_networks_inc_ch7465lg_packetssec_sent:
+  hidden: true
+sensor.samsung_clp320_series_192168178102_toner_black:
+  friendly_name: Samsung CLP-320 Toner black
+sensor.samsung_clp320_series_192168178102_toner_cyan:
+  friendly_name: Samsung CLP-320 Toner cyan
+sensor.samsung_clp320_series_192168178102_toner_magenta:
+  friendly_name: Samsung CLP-320 Toner magenta
+sensor.samsung_clp320_series_192168178102_toner_yellow:
+  friendly_name: Samsung CLP-320 Toner yellow
+light.yeelight_rgb_7c49eb186284_2:
+  friendly_name: Woonkamerverlichting
+sensor.compal_broadband_networks_inc_ch7465lg_kbytesec_sent:
+  friendly_name: Connectbox kbyte/sec sent
+sensor.compal_broadband_networks_inc_ch7465lg_kbytesec_received:
+  friendly_name: Connectbox kbyte/sec received

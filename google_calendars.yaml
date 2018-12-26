@@ -1,0 +1,70 @@
+
+- cal_id: filip.vanhoeckel@gmail.com
+  entities:
+  - device_id: filip_van_hoeckel
+    ignore_availability: false
+    name: Filip van Hoeckel
+    track: true
+
+- cal_id: fh@nowton.nl
+  entities:
+  - device_id: fhnowtonnl
+    ignore_availability: false
+    name: fh@nowton.nl
+    track: true
+
+- cal_id: jacobijne.langerijs@gmail.com
+  entities:
+  - device_id: jacobijnelangerijsgmailcom
+    ignore_availability: false
+    name: jacobijne.langerijs@gmail.com
+    track: true
+
+- cal_id: g0k1sv1gsdief8q28kvek83ps4@group.calendar.google.com
+  entities:
+  - device_id: week_numbers_sundays
+    ignore_availability: true
+    name: Week Numbers (Sundays)
+    track: false
+
+- cal_id: i0idn0g2ku2o6p6u2o63csl6v4@group.calendar.google.com
+  entities:
+  - device_id: podio
+    ignore_availability: true
+    name: Podio
+    track: false
+
+- cal_id: nmao9p56t2lfi330e13aulhdn9seh5eo@import.calendar.google.com
+  entities:
+  - device_id: talmaschool__events
+    ignore_availability: true
+    name: Talmaschool - Events
+    track: false
+
+- cal_id: '#contacts@group.v.calendar.google.com'
+  entities:
+  - device_id: contacts
+    ignore_availability: true
+    name: Contacts
+    track: false
+
+- cal_id: nl.dutch#holiday@group.v.calendar.google.com
+  entities:
+  - device_id: feestdagen_in_nederland
+    ignore_availability: true
+    name: Feestdagen in Nederland
+    track: true
+
+- cal_id: p#weather@group.v.calendar.google.com
+  entities:
+  - device_id: weather_potsdam
+    ignore_availability: true
+    name: 'Weather: Potsdam'
+    track: false
+
+- cal_id: family04737365618238807474@group.calendar.google.com
+  entities:
+  - device_id: gezin
+    ignore_availability: true
+    name: Gezin
+    track: true

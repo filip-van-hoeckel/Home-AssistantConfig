@@ -1,0 +1,32 @@
+printer:
+  name: Samsung printer
+  icon: mdi:printer
+  entities: 
+    - sensor.samsung_clp320_series_192168178102_toner_black
+    - sensor.samsung_clp320_series_192168178102_toner_cyan
+    - sensor.samsung_clp320_series_192168178102_toner_magenta
+    - sensor.samsung_clp320_series_192168178102_toner_yellow
+modem:
+  name: Ziggo ConnectBox
+  icon: mdi:ip-network
+  entities:
+    - sensor.compal_broadband_networks_inc_ch7465lg_kbytesec_sent
+    - sensor.compal_broadband_networks_inc_ch7465lg_kbytesec_received
+stroommeter:
+  name: Slimme meter
+  icon: mdi:power-plug
+  entities:
+    - sensor.long_power_failure_count
+    - sensor.power_consumption
+    - sensor.power_consumption_low
+    - sensor.power_consumption_normal
+    - sensor.power_consumption_phase_l1
+    - sensor.power_consumption_phase_l2
+    - sensor.power_consumption_phase_l3
+    - sensor.power_tariff
+NAS:
+  name: Synology DS416
+  icon: mdi:harddisk
+  entities:
+    - sensor.cpu_total_load
+    - sensor.memory_real_usage
